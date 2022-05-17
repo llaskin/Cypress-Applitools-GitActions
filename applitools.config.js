@@ -16,5 +16,6 @@ module.exports = {
     // set batch name to the configuration
     batchName: 'Cypress-GitAcions',
     batchId: process.env.APPLITOOLS_BATCH_ID
+    branchName: process.env.APPLITOOLS_BATCH_ID
     
 }
