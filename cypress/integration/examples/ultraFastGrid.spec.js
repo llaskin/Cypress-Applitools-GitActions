@@ -10,6 +10,7 @@ describe("AppTest", () => {
 //         $el.get(0).innerHTML = 'Logout Form';
 //        })
 
+
         // Call Open on eyes to initialize a test session
         cy.eyesOpen({
             appName: 'Demo App',
