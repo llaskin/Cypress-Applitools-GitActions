@@ -7,7 +7,7 @@ describe("AppTest", () => {
         // (for the 2nd run)
          cy.visit('https://demo.applitools.com');
         cy.get(".auth-heanpder").then(($el)=>{
-         $el.get(0).innerHTML = 'Logout Form';
+         $el.get(0).innerHTML = 'Log Form';
         })
 
         // Call Open on eyes to initialize a test session
